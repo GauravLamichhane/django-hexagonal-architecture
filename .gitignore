@@ -1,0 +1,28 @@
+# Python & Virtual Environment (uv)
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django Specifics
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+local_settings.py
+
+# Environment Variables
+.env
+.env.local
+.env.*
+
+# Testing & Tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS & IDE
+.DS_Store
+.vscode/
+.idea/

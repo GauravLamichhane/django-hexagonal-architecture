@@ -1,0 +1,22 @@
+[project]
+name = "django-hexagonal-tasks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gaurav Lamichhane", email = "gaurav.lamichhane02@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.1.1",
+    "djangorestframework>=3.18.0",
+    "git-filter-repo>=2.47.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+django-hexagonal-tasks = "django_hexagonal_tasks:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
